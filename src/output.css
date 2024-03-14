@@ -553,8 +553,12 @@ video {
   margin-top: 1rem;
 }
 
-.inline-block {
-  display: inline-block;
+.\!mb-24 {
+  margin-bottom: 6rem !important;
+}
+
+.\!mt-24 {
+  margin-top: 6rem !important;
 }
 
 .flex {
@@ -711,11 +715,6 @@ video {
 .text-yellow-600 {
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-.shadow-slate-200 {
-  --tw-shadow-color: #e2e8f0;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-slate-200\/50 {

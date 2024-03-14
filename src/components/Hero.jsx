@@ -13,7 +13,7 @@ export function Hero () {
           <li>
             <button className="px-2 py-1 md:px-4 md:py-2 rounded-xl border-transparent bg-stone-200 text-stone-900 hover:border-stone-200 hover:bg-transparent hover:text-stone-200">
                 <a
-                    href="https://https://github.com/JacobSilverberg"
+                    href="https://github.com/JacobSilverberg"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

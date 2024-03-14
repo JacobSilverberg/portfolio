@@ -1,0 +1,34 @@
+[
+    {
+        "key": 1,
+        "name": "ML-Breakout",
+        "tech": ["C#", "Unity", "Machine Learning"],
+        "description": "A replica of Atari’s Breakout and a neural net with reinforcement learning algorithms from Unity ML-Agents to play the game.",
+        "github": "https://github.com/JacobSilverberg/ML-Breakout",
+        "link": "https://simmer.io/@CcEeCcIi/ml-breakout"
+    },
+    {
+        "key": 2,
+        "name": "Franchise Twitter Bot",
+        "tech": ["Python", "API"],
+        "description": "A Twitter bot which pulls Yahoo fantasy football team transactions and sends tweets from a dedicated account.",
+        "github": "https://github.com/JacobSilverberg/FranchiseTwitterBot",
+        "link": "https://https://twitter.com/beatreporterffl"
+    },
+    {
+        "key": 3,
+        "name": "SmallSH",
+        "tech": ["C"],
+        "description": "A shell written in C which implements a subset of features for my Operating Systems class.",
+        "github": "https://github.com/JacobSilverberg/CS344-smallsh",
+        "link": null
+    },
+    {
+        "key": 4,
+        "name": "Shopping Cart",
+        "tech": ["React", "Tailwind", "JavaScript"],
+        "description": "A faux online store made using React and Tailwind to demonstrate and reinforce skills.",
+        "github": "https://github.com/JacobSilverberg/shopping-cart",
+        "link": "https://shopping-cart-two-liard.vercel.app/"
+    }
+]
