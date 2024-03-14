@@ -1,0 +1,17 @@
+[
+    {
+        "key": 1,
+        "name": "React",
+        "icon": "../images/skills/React.svg"
+    },
+    {
+        "key": 2,
+        "name": "Node.js",
+        "icon": "../images/skills/Nodejs.svg"
+    },
+    {
+        "key": 3,
+        "name": "Flask",
+        "icon": "../images/skills/Flask.svg"
+    }
+]

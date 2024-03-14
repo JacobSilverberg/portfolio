@@ -1,0 +1,37 @@
+[
+    {
+        "key": 1,
+        "name": "JavaScript",
+        "icon": "../images/skills/JavaScript.svg"
+    },
+    {
+        "key": 2,
+        "name": "Python",
+        "icon": "../images/skills/Python.svg"
+    },
+    {
+        "key": 3,
+        "name": "HTML",
+        "icon": "../images/skills/HTML5.svg"
+    },
+    {
+        "key": 4,
+        "name": "CSS",
+        "icon": "../images/skills/CSS3.svg"
+    },
+    {
+        "key": 5,
+        "name": "C",
+        "icon": "../images/skills/C.svg"
+    },
+    {
+        "key": 6,
+        "name": "C#",
+        "icon": "../images/skills/CSharp.svg"
+    },
+    {
+        "key": 7,
+        "name": "SQL",
+        "icon": "../images/skills/SQL.svg"
+    }
+]

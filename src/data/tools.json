@@ -1,0 +1,22 @@
+[
+    {
+        "key": 1,
+        "name": "Git",
+        "icon": "../images/skills/GitHub.svg"
+    },
+    {
+        "key": 2,
+        "name": "VSCode",
+        "icon": "../images/skills/VSCode.svg"
+    },
+    {
+        "key": 3,
+        "name": "PyCharm",
+        "icon": "../images/skills/PyCharm.svg"
+    },
+    {
+        "key": 4,
+        "name": "Unity",
+        "icon": "../images/skills/Unity.svg"
+    }
+]
