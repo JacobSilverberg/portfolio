@@ -9,6 +9,14 @@
     },
     {
         "key": 2,
+        "name": "Portfolio React Website",
+        "tech": ["React", "Tailwind", "JavaScript"],
+        "description": "This site! A portfolio website made using React, Tailwind and JavaScript.",
+        "github": "https://github.com/JacobSilverberg/portfolio",
+        "link": "https://NOLINKYET.COM/"
+    },
+    {
+        "key": 3,
         "name": "Franchise Twitter Bot",
         "tech": ["Python", "API"],
         "description": "A Twitter bot which pulls Yahoo fantasy football team transactions and sends tweets from a dedicated account.",
@@ -16,7 +24,7 @@
         "link": "https://https://twitter.com/beatreporterffl"
     },
     {
-        "key": 3,
+        "key": 4,
         "name": "SmallSH",
         "tech": ["C"],
         "description": "A shell written in C which implements a subset of features for my Operating Systems class.",
@@ -24,7 +32,7 @@
         "link": null
     },
     {
-        "key": 4,
+        "key": 5,
         "name": "Shopping Cart",
         "tech": ["React", "Tailwind", "JavaScript"],
         "description": "A faux online store made using React and Tailwind to demonstrate and reinforce skills.",
