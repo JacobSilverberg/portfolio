@@ -38,5 +38,13 @@
         "description": "A faux online store made using React and Tailwind to demonstrate and reinforce skills.",
         "github": "https://github.com/JacobSilverberg/shopping-cart",
         "link": "https://shopping-cart-two-liard.vercel.app/"
+    },
+    {
+        "key": 6,
+        "name": "Hockey Memory",
+        "tech": ["React", "JavaScript", "HTML/CSS"],
+        "description": "A simple memory game featuring some NHL superstars to hone my abilities in React.",
+        "github": "https://github.com/JacobSilverberg/hockey-memory-card",
+        "link": "https://hockey-memory-card.vercel.app/"
     }
 ]

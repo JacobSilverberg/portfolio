@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 export function Footer() {
     const currentYear = new Date().getFullYear();
   
@@ -18,9 +20,11 @@ export function Footer() {
             <a href="mailto:JacobSilverberg@gmail.com">
               <img src="../images/footer/email.svg" className="h-8" style={{ fill: 'white' }} />
             </a>
-            <button className="bg-transparent hover:bg-gray-800 text-gray-200 font-semibold py-2 px-4 border border-gray-200 rounded inline-flex items-center">
-              <img src="../images/footer/arrow_up.svg" className="h-8" style={{ fill: 'white' }} />
-            </button>
+            <Link to="hero" smooth={true} duration={500} spy={true} offset={-70}>
+              <button className="bg-transparent hover:bg-gray-800 text-gray-200 font-semibold py-2 px-4 border border-gray-200 rounded inline-flex items-center">
+                <img src="../images/footer/arrow_up.svg" className="h-8" style={{ fill: 'white' }} />
+              </button>
+            </Link>
             {/* <button className="bg-transparent hover:bg-gray-800 text-gray-200 font-semibold py-2 px-4 border border-gray-200 rounded">
               <img src="../images/footer/moon.svg" className="h-8" style={{ fill: 'white' }} />
             </button> */}
@@ -28,5 +32,4 @@ export function Footer() {
         </div>
       </footer>
     );
-  }
-  
+}
