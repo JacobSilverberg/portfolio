@@ -47,7 +47,7 @@ export function About() {
                 <ul className="mx-auto flex flex-col items-start gap-3 text-start">
                     <li className="flex flex-col gap-6">
                         <div className="flex gap-3 items-center">
-                            <img src="../public/images/about/wave.svg" alt="wave" className="size-6"/>
+                            <img src="../images/about/wave.svg" alt="wave" className="size-6 align-middle"/>
                             <p className="">
                                 Hi, I&#39;m Jacob and welcome to my portfolio website made with <b>React</b> and <b>Tailwind</b>!.
                             </p>
