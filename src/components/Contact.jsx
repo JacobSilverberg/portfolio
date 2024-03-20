@@ -108,7 +108,7 @@ export function Contact() {
                         </li>
                         <li className="flex flex-col items-center">
                             <a
-                                href="/silverberg_resume.pdf"
+                                href="/Jacob_Silverberg_Resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-lg font-semibold mb-2"
@@ -116,7 +116,7 @@ export function Contact() {
                                 Resume
                             </a>
                             <a
-                                href="/silverberg_resume.pdf"
+                                href="/Jacob_Silverberg_Resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

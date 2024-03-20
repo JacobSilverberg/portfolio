@@ -65,7 +65,7 @@ export function Hero() {
       </ul>
       <button className="relative px-2 py-1 md:px-4 md:py-2 rounded-xl border border-black bg-transparent text-stone-900 hover:border-stone-200 hover:bg-transparent">
         <a
-          href="/silverberg_resume.pdf"
+          href="/Jacob_Silverberg_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center hover:filter hover:brightness-75"
