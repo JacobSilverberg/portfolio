@@ -5,7 +5,8 @@
         "tech": ["C#", "Unity", "Machine Learning"],
         "description": "A replica of Atari’s Breakout and a neural net with reinforcement learning algorithms from Unity ML-Agents to play the game.",
         "github": "https://github.com/JacobSilverberg/ML-Breakout",
-        "link": "https://simmer.io/@CcEeCcIi/ml-breakout"
+        "link": "https://simmer.io/@CcEeCcIi/ml-breakout",
+        "img": "../images/projects/ml-breakout.png"
     },
     {
         "key": 2,
@@ -13,7 +14,8 @@
         "tech": ["React", "Tailwind", "JavaScript"],
         "description": "This site! A portfolio website made using React, Tailwind and JavaScript.",
         "github": "https://github.com/JacobSilverberg/portfolio",
-        "link": "https://NOLINKYET.COM/"
+        "link": "https://NOLINKYET.COM/",
+        "img": "../images/projects/portfolio.png"
     },
     {
         "key": 3,
@@ -21,7 +23,8 @@
         "tech": ["Python", "API"],
         "description": "A Twitter bot which pulls Yahoo fantasy football team transactions and sends tweets from a dedicated account.",
         "github": "https://github.com/JacobSilverberg/FranchiseTwitterBot",
-        "link": "https://https://twitter.com/beatreporterffl"
+        "link": "https://twitter.com/beatreporterffl",
+        "img": "../images/projects/franchise.png"
     },
     {
         "key": 4,
@@ -29,15 +32,17 @@
         "tech": ["C"],
         "description": "A shell written in C which implements a subset of features for my Operating Systems class.",
         "github": "https://github.com/JacobSilverberg/CS344-smallsh",
-        "link": null
+        "link": null,
+        "img": "../images/projects/smallsh.png"
     },
     {
         "key": 5,
-        "name": "Shopping Cart",
+        "name": "Chubbs' Golf Outlet",
         "tech": ["React", "Tailwind", "JavaScript"],
         "description": "A faux online store made using React and Tailwind to demonstrate and reinforce skills.",
         "github": "https://github.com/JacobSilverberg/shopping-cart",
-        "link": "https://shopping-cart-two-liard.vercel.app/"
+        "link": "https://shopping-cart-two-liard.vercel.app/",
+        "img": "../images/projects/chubbs.png"
     },
     {
         "key": 6,
@@ -45,6 +50,7 @@
         "tech": ["React", "JavaScript", "HTML/CSS"],
         "description": "A simple memory game featuring some NHL superstars to hone my abilities in React.",
         "github": "https://github.com/JacobSilverberg/hockey-memory-card",
-        "link": "https://hockey-memory-card.vercel.app/"
+        "link": "https://hockey-memory-card.vercel.app/",
+        "img": "../images/projects/hockey.png"
     }
 ]

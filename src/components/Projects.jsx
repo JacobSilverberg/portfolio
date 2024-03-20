@@ -10,6 +10,7 @@ export function Projects() {
         {projects.map((project, index) => (
           <div key={index} className="flex flex-col justify-between bg-white shadow-md rounded-lg p-6 relative">
             <div>
+              <img src={project.img} alt={project.name} className="w-full mb-4 rounded-lg" />
               <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="mb-2 flex flex-wrap">
@@ -26,12 +27,21 @@ export function Projects() {
             <div className="flex flex-col justify-self-end">
               {project.link && (
                 <p className="mb-2">
-                  <a href={project.link} className="text-blue-600">
+                  <a 
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="text-blue-600"
+                  >
                     Link
                   </a>
                 </p>
               )}
-              <a href={project.github}>
+              <a 
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer" 
+              >
                 <img src="../images/skills/GitHub.svg" className="size-8" />
               </a>
             </div>
