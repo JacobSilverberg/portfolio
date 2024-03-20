@@ -3,7 +3,9 @@ import projects from "../data/projects.json";
 export function Projects() {
   return (
     <div id="projects" className="container mx-auto py-8 w-4/5">
-      <h2 className="text-2xl font-bold mb-4">Projects</h2>
+      <h2 className="text-center font-atkinson mb-8 text-4xl md:text-5xl font-bold"> 
+        Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg p-6">

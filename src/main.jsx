@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
     <div className="relative">
-      <div className="absolute inset-0 bg-webp bg-cover bg-center" style={{ backgroundImage: 'url("../images/stipling.jpg")', backgroundSize: '100%', opacity: '4%' }} />
+      <div className="absolute inset-0 bg-webp bg-cover bg-center filter grayscale" style={{ backgroundImage: 'url("../images/stipling.jpg")', backgroundSize: '100%', opacity: '4%' }} />
       <div className="relative z-10">
         <Hero />
         <Break />
