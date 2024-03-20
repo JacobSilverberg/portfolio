@@ -11,11 +11,11 @@ export function Footer() {
             <span className="text-sm">{currentYear} Jacob Silverberg</span>
           </div>
           <div className="flex items-center space-x-4">
-            <a href="https://www.linkedin.com/in/jacobsilverberg/" target="_blank" rel="noopener noreferrer">
-              <img src="../images/footer/linkedin.svg" className="h-8 fill-white"/>
-            </a>
             <a href="https://github.com/JacobSilverberg" target="_blank" rel="noopener noreferrer">
               <img src="../images/skills/GitHub.svg" className="h-8" style={{ fill: 'white' }} />  
+            </a>
+            <a href="https://www.linkedin.com/in/jacobsilverberg/" target="_blank" rel="noopener noreferrer">
+              <img src="../images/footer/linkedin.svg" className="h-8 fill-white"/>
             </a>
             <a href="mailto:JacobSilverberg@gmail.com">
               <img src="../images/footer/email.svg" className="h-8" style={{ fill: 'white' }} />

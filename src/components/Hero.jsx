@@ -1,6 +1,18 @@
+import { useState, useEffect } from 'react';
+
 export function Hero() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 500); 
+
+    return () => clearTimeout(timer); 
+  }, []);
+
   return (
-    <header id="hero" className="flex h-screen flex-col items-center justify-center gap-12">
+    <header id="hero" className={`flex h-screen flex-col items-center justify-center gap-12 transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div className="flex flex-col items-center gap-4">
         <h1 className="text-center font-atkinson text-6xl md:text-8xl">
           Jacob Silverberg
@@ -60,10 +72,10 @@ export function Hero() {
         >
           <span className="mr-2">Resume</span>
           <img
-              src="../images/hero/arrow-top-right.svg"
-              alt="Email"
-              className="w-5 h-5 md:w-7 md:h-7"
-            />
+            src="../images/hero/arrow-top-right.svg"
+            alt="Email"
+            className="w-5 h-5 md:w-7 md:h-7"
+          />
         </a>
       </button>
     </header>

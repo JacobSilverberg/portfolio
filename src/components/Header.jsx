@@ -1,10 +1,17 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 
 export function Header() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true); 
+  }, []);
+
   return (
-    <header className="bg-white text-black py-4 fixed top-0 left-0 right-0 z-50">
+    <header className={`bg-white text-black py-4 fixed top-0 left-0 right-0 z-50 transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center"> {/* Flex container for logo and name */}
+        <div className="flex items-center"> 
           <img
             src="../images/JS.svg"
             alt="JS Logo"
@@ -12,8 +19,8 @@ export function Header() {
           />
           <h1 className="text-2xl font-bold">Jacob Silverberg</h1>
         </div>
-        <div className="flex items-center"> {/* Flex container for navigation */}
-          <nav className="mr-4"> {/* Margin-right for spacing */}
+        <div className="flex items-center"> 
+          <nav className="mr-4"> 
             <ul className="flex space-x-4">
               <li>
                 <Link
@@ -21,7 +28,7 @@ export function Header() {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-70} // Adjust offset as needed
+                  offset={-70} 
                   className="hover:text-gray-800 hover:underline cursor-pointer"
                 >
                   About Me
@@ -33,7 +40,7 @@ export function Header() {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-70} // Adjust offset as needed
+                  offset={-70} 
                   className="hover:text-gray-800 hover:underline cursor-pointer"
                 >
                   Skills
@@ -45,7 +52,7 @@ export function Header() {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-70} // Adjust offset as needed
+                  offset={-70} 
                   className="hover:text-gray-800 hover:underline cursor-pointer"
                 >
                   Projects
@@ -57,7 +64,7 @@ export function Header() {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-70} // Adjust offset as needed
+                  offset={-70} 
                   className="hover:text-gray-800 hover:underline cursor-pointer"
                 >
                   Contact

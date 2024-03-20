@@ -1,6 +1,44 @@
-export function About () {
+import { useEffect, useState, useRef } from 'react';
+
+export function About() {
+    const [isAboutVisible, setAboutIsVisible] = useState(false);
+    const aboutRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    const currentRef = aboutRef.current;
+                    if (currentRef) {
+                        setTimeout(() => {
+                            setAboutIsVisible(true);
+                        }, 500); 
+                        observer.unobserve(currentRef);
+                    }
+                }
+            },
+            { rootMargin: '-100px 0px' } 
+        );
+
+        const currentRef = aboutRef.current; 
+
+        if (currentRef) {
+            observer.observe(currentRef);
+        }
+
+        return () => {
+            if (currentRef) {
+                observer.unobserve(currentRef);
+            }
+        };
+    }, []);
+
     return (
-        <section id="about" className="flex flex-col gap-12">
+        <section
+            id="about"
+            ref={aboutRef}
+            className={`flex flex-col gap-12 ${isAboutVisible ? 'opacity-100 transition-opacity duration-500' : 'opacity-0'}`}
+        >
             <h2 className="text-center font-atkinson text-4xl md:text-5xl font-bold"> 
                 About Me
             </h2>
@@ -50,5 +88,5 @@ export function About () {
                 </ul>
             </div>
         </section>
-      );
+    );
 }
