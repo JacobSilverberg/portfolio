@@ -14,7 +14,7 @@
         "tech": ["React", "Tailwind", "JavaScript"],
         "description": "This site! A portfolio website made using React, Tailwind and JavaScript.",
         "github": "https://github.com/JacobSilverberg/portfolio",
-        "link": "https://NOLINKYET.COM/",
+        "link": "https://jacob-silverberg-portfolio.vercel.app/",
         "img": "../images/projects/portfolio.png"
     },
     {
