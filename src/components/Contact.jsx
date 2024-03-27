@@ -58,6 +58,7 @@ export function Contact() {
 
     return (
         <div
+            id="contact"
             ref={contactRef}
             className={`container mx-auto py-8 ${isContactVisible ? 'opacity-100 transition-opacity duration-500' : 'opacity-0'}`}
         >
