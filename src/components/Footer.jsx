@@ -17,7 +17,7 @@ export function Footer() {
             <a href="https://www.linkedin.com/in/jacobsilverberg/" target="_blank" rel="noopener noreferrer">
               <img src="../images/footer/linkedin.svg" className="h-8 fill-white"/>
             </a>
-            <a href="mailto:JacobSilverberg@gmail.com">
+            <a href="mailto:JacobSilverberg@gmail.com" target="_blank" rel="noopener noreferrer">
               <img src="../images/footer/email.svg" className="h-8" style={{ fill: 'white' }} />
             </a>
             <Link to="hero" smooth={true} duration={500} spy={true} offset={-70}>

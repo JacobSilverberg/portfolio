@@ -53,6 +53,8 @@ export function Hero() {
         <li>
           <a
             href="mailto:JacobSilverberg@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:filter hover:brightness-75"
           >
             <img

@@ -6,11 +6,16 @@
     },
     {
         "key": 2,
+        "name": "Tailwind",
+        "icon": "../images/skills/Tailwind.svg"
+    },
+    {
+        "key": 3,
         "name": "Node.js",
         "icon": "../images/skills/Nodejs.svg"
     },
     {
-        "key": 3,
+        "key": 4,
         "name": "Flask",
         "icon": "../images/skills/Flask.svg"
     }

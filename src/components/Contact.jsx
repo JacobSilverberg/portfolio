@@ -92,6 +92,8 @@ export function Contact() {
                         <li className="flex flex-col items-center">
                             <a
                                 href="mailto:JacobSilverberg@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-lg font-semibold mb-2"
                             >
                                 Email
