@@ -44,7 +44,7 @@ export function Skills() {
             className={`flex flex-col items-center justify-center gap-12 ${areSkillsVisible ? 'opacity-100 transition-opacity duration-1000 ease-in-out' : 'opacity-0'}`}
         >
             <h2 className="text-center font-atkinson text-4xl md:text-5xl font-bold transition-opacity duration-1000 ease-in-out">Skills</h2>
-            <div className="flex justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-8">
                 <SkillGroup title="Languages" items={languages} />
                 <SkillGroup title="Frameworks" items={frameworks} />
                 <SkillGroup title="Other Tools" items={tools} />
@@ -56,14 +56,14 @@ export function Skills() {
 function SkillGroup({ title, items }) {    
     SkillGroup.propTypes = {
         title: PropTypes.string,
-        items: PropTypes.object
+        items: PropTypes.array
     }
     
     return (
         <div className="p-6 rounded-lg bg-white shadow-md">
             <h4 className="text-xl font-bold mb-4">{title}</h4>
-            {items.map((item) => (
-                <Skill key={item.key} name={item.name} icon={item.icon} />
+            {items.map((item, index) => (
+                <Skill key={index} name={item.name} icon={item.icon} />
             ))}
         </div>
     );
@@ -72,7 +72,7 @@ function SkillGroup({ title, items }) {
 function Skill({ name, icon }) {
     Skill.propTypes = {
         name: PropTypes.string,
-        icon: PropTypes.img
+        icon: PropTypes.string
     }
 
     const [isHovered, setIsHovered] = useState(false);
