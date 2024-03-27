@@ -42,8 +42,8 @@ export function About() {
             <h2 className="text-center font-atkinson text-4xl md:text-5xl font-bold"> 
                 About Me
             </h2>
-            <div className="mx-auto flex items-center w-3/5 gap-10">
-                <img src="../images/about/headshot.jpeg" alt="headshot" className="size-48 rounded-full"/>
+            <div className="mx-auto flex flex-col md:flex-row items-center w-3/5 gap-10">
+                <img src="../images/about/headshot.jpeg" alt="headshot" className="w-48 h-48 md:w-auto md:h-auto rounded-full mb-6 md:mb-0"/>
                 <ul className="mx-auto flex flex-col items-start gap-3 text-start">
                     <li className="flex flex-col gap-6">
                         <div className="flex gap-3 items-center">
