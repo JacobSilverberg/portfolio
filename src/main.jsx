@@ -12,21 +12,21 @@ import './output.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <div className="relative">
-      <div className="absolute inset-0 bg-webp bg-cover bg-center filter grayscale" style={{ backgroundImage: 'url("../images/stipling.jpg")', backgroundSize: '100%', opacity: '4%' }} />
-      <div className="relative z-10">
-        <Hero />
-        <Break />
-        <About />
-        <Break />
-        <Skills />
-        <Break />
-        <Projects />
-        <Break />
-        <Contact />
-      </div>
-    </div>
-    <Footer />
+      <Header />
+      <div className="bg-webp bg-cover bg-center filter grayscale fixed inset-0 z-0" style={{ backgroundImage: 'url("../images/stipling.jpg")', backgroundSize: 'cover', opacity: '0.04' }} />
+      <main className="relative z-10">
+          <div>
+              <Hero />
+              <Break />
+              <About />
+              <Break />
+              <Skills />
+              <Break />
+              <Projects />
+              <Break />
+              <Contact />
+          </div>
+      </main>
+      <Footer />
   </React.StrictMode>,
 );
